@@ -1,0 +1,7 @@
+Save Format v3.0(19990112)
+@begin Targets
+ 0 "prog4.pbt";
+@end;
+DefaultTarget "prog4.pbt";
+DefaultExportEncode "UTF-8";
+DefaultRemoteTarget "prog4.pbt";
