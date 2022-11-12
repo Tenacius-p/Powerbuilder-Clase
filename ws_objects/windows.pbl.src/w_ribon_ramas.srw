@@ -7,7 +7,7 @@ end forward
 global type w_ribon_ramas from w_ribon
 integer width = 2085
 integer height = 540
-string title = "r"
+string title = "ramas"
 end type
 global w_ribon_ramas w_ribon_ramas
 
