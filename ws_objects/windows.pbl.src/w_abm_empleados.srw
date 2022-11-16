@@ -19,6 +19,7 @@ global w_abm_empleados w_abm_empleados
 type variables
 blob imagen_blob
 end variables
+
 on w_abm_empleados.create
 int iCurrent
 call super::create
@@ -45,7 +46,7 @@ integer y = 1012
 end type
 
 event cb_nuevo::clicked;call super::clicked;setnull(imagen_blob)
-//p_imagen.SetRedraw(true)
+p_imagen.picturename = ' '
 end event
 
 type cb_borrar from w_abm_base`cb_borrar within w_abm_empleados
